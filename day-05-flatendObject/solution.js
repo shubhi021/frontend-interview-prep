@@ -14,3 +14,16 @@ const flattenObj = (obj, prefix = '') => {
   return result;
 };
 console.log(flattenObj(response));
+
+
+//Output
+{
+age: 21
+characteristics.complexion: "dark"
+characteristics.hair: "black"
+characteristics.height: "6 feet"
+name: "Manu"
+techStack.framework.name: "Nextjs"
+techStack.framework.version: "12"
+techStack.language: "Javascript"
+}
